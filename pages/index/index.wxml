@@ -5,10 +5,8 @@
     {{chart.name}}
   </view>
   <view class="chart-without-img">
-    <button bindtap="open">
-      <navigator url="https://www.suimulearn.com" target="_blank">
-        我的博客网址: https://www.suimulearn.com
-      </navigator>
+    <button>
+      我的博客网址: https://suimulearn.com
     </button>
   </view>
   <view class="chart-without-img" wx:for="{{chartsWithoutImg}}" wx:for-item="chart" wx:key="id">
